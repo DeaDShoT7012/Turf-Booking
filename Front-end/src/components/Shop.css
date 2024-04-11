@@ -1,0 +1,107 @@
+.first1{
+    height: 550px;
+    width: 100%;
+    background-image: url(https://th.bing.com/th/id/OIG2.18kQIOHf8DsvcQmNo9Ix?pid=ImgGn);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 500px;
+
+}
+.shop{
+   margin-top: 200px;
+}
+.holder{
+    position: relative;
+}
+.holder:hover .search{
+    visibility: visible;
+}
+.holder:hover img{
+    transform: scale(1.1);
+}
+#card{
+    background:black   ; 
+    box-shadow: 0px 7px 10px rgba(0,0,0,0.5);
+    border: 2px solid #a4906e;
+    border-radius: 10px;  
+}
+#card img{
+    transition: .5s ease;
+}
+.search{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: grey;
+    opacity: .8;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden;
+    border-radius: 10px;
+
+}
+.btn1{
+    background: black;
+    color:white;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    
+}
+.btn1:hover{
+    background: white;
+    color: black;
+    border-radius: 5px;   
+}
+.sorting{
+    height: 100px;
+    background: white;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+}
+.sort1{
+    width: 50%;
+}
+.sort2{
+    width: 50%;
+    text-align: end;
+}
+.sort3{
+    width: 50%;
+}
+.select{
+    width: 20px;
+}
+.inc{
+    width: 150px;
+    height: 50px;
+    color: white;
+    background: #000;
+}
+.view{
+    display: flex;
+    justify-content: space-around;   
+}
+.viewimg{
+width: 40%;
+height: 500px;
+background: #f7f7f7;
+border-radius: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.viewimg img{
+    height: 100%;
+}
+.viewdetails{
+width: 50%;
+height: 500px;
+}

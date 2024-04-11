@@ -1,0 +1,26 @@
+.cart-payment{
+    display: flex;
+    justify-content: space-around;
+}
+.cart-forms{
+    width: 300px;
+    height: 400px;
+}
+.cart-btns{
+    background: #E75146;
+    color: white;
+    height: 40px;
+    border-radius: 9px;
+    border: none;
+}
+.cart-total{
+    display: flex;
+    justify-content: space-between;
+}
+.home-btns{
+    background: white;
+    color: black;
+    height: 40px;
+    border-radius: 9px;
+    border: 1px solid black;
+}

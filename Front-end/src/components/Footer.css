@@ -1,0 +1,37 @@
+.footer{
+    height: 350px;
+    background-image: url(bg.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+.block{
+    height: 350px;
+    width:33.33% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: 1px solid white;
+
+}
+.copyright{
+    height: 100px;
+    width: 100%;
+    background-image: url(bg2.png);
+    background-size: cover;
+    color: #130802;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+
+
+}
+.text{
+    text-align: center;
+}
+h2{
+    color: #130802;
+}
